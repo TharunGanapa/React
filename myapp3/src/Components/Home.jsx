@@ -1,8 +1,7 @@
-function Home() {
+export default function Home({name , age}) {
     return (
         <>
-        <h1>Home page</h1>
+        <h1>Welcome {name}</h1>
         </>
     )
 }
-export default Home
